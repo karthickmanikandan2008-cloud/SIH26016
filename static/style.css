@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+.header {
+    background-color: #1f4e79;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.card p {
+    color: #555555;
+}
+
+.pending {
+    border-left: 5px solid orange;
+}
+
+.approved {
+    border-left: 5px solid green;
+}
+
+.completed {
+    border-left: 5px solid blue;
+}
+
+.total {
+    border-left: 5px solid purple;
+}
