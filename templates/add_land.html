@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Land</title>
+</head>
+
+<body>
+
+    <h1>Land Registration</h1>
+
+    <form method="POST">
+
+        <label>Land ID:</label><br>
+        <input type="text" name="land_id" required>
+        <br><br>
+
+        <label>Survey Number:</label><br>
+        <input type="text" name="survey_no" required>
+        <br><br>
+
+        <label>Village:</label><br>
+        <input type="text" name="village" required>
+        <br><br>
+
+        <label>District:</label><br>
+        <input type="text" name="district" required>
+        <br><br>
+
+        <label>Area (acres):</label><br>
+        <input type="number" step="0.01" name="area" required>
+        <br><br>
+
+        <label>Owner Name:</label><br>
+        <input type="text" name="owner" required>
+        <br><br>
+
+        <label>Status:</label><br>
+
+        <select name="status" required>
+
+            <option value="">-- Select Status --</option>
+
+            <option value="Pending">
+                Pending
+            </option>
+
+            <option value="Approved">
+                Approved
+            </option>
+
+            <option value="Completed">
+                Completed
+            </option>
+
+        </select>
+
+        <br><br>
+
+        <button type="submit">
+            Save Land
+        </button>
+
+    </form>
+
+    <br>
+
+    <a href="/">
+        Back to Dashboard
+    </a>
+
+</body>
+
+</html>
